@@ -8,7 +8,6 @@ class Ether < Formula
 
   def install
     bin.install "ether"
-    system "mkdir ~/Library/Application\ Support/Ether"
-    system "mkdir ~/Library/Application\ Support/Ether/Templates"
+    system "mkdir", "-p", "$HOME/Library/Application Support/Ether/Templates"
   end
 end
