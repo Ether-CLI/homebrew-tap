@@ -2,7 +2,7 @@ class Ether < Formula
   homepage "https://github.com/calebkleveter/Ether"
   version "1.7.0"
   url "https://github.com/calebkleveter/Ether/releases/download/#{version}/macOS-sierra.tar.gz"
-  sha256 "bc78a1a2a729345940f00870d56012275ef2e14516506c6c2c4e3f36a9df18d0"
+  sha256 "1c5b7ba4e141f66745099081d3c409eae9ce086c6cef3bd236d55c8407b3b83a"
 
   depends_on "ctls" => :run
 
