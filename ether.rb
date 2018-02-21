@@ -8,6 +8,12 @@ class Ether < Formula
 
   def install
     bin.install "ether"
-    system "mkdir", "-p", "$HOME/Library/Application\\ Support/Ether/Templates"
+  end
+  
+  postflight do
+    # Unhide the application
+    system_command '/bin/mkdir',
+                   args: ['-p', "$HOME/Library/Application\\ Support/Ether/Templates"],
+                   sudo: false
   end
 end
