@@ -1,11 +1,10 @@
 class Ether < Formula
   homepage "https://github.com/Ether-CLI/Ether"
-  version "2018.05.18"
+  version "2018.05.22"
   url "https://github.com/calebkleveter/Ether/releases/download/#{version}/macOS-sierra.tar.gz"
-  sha256 "e29059c3fc98c930e30a868acaf0dada99b7b209610a9a61efdca2a2d6de0ceb"
+  sha256 "35713694b3d9311626951305c2c9dd1a57c2f0b2361f9cfefc0f2164c26bce68"
 
   def install
     bin.install "ether"
-    ohai "Run `mkdir -p $HOME/Library/Application\\ Support/Ether/Templates` to complete installation"
   end
 end
