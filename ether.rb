@@ -1,8 +1,8 @@
 class Ether < Formula
   homepage "https://github.com/Ether-CLI/Ether"
-  version "2018.06.15"
+  version "2018.08.11"
   url "https://github.com/calebkleveter/Ether/releases/download/#{version}/macOS-sierra.tar.gz"
-  sha256 "1f15a5efd8de5b76698c37093a72a94146bbf5176eb932297f7a82339da65bec"
+  sha256 "87d7dd392804fb521d497d074cd37bef60cdf2aeaf1c29ec4462a2b4766bd739"
 
   depends_on "libressl"
   
